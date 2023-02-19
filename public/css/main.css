@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&family=Roboto+Slab&display=swap");
+body {
+  background: url("https://bellabayrealty.com/wp-content/uploads/2018/01/desk-top.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold; }
+
+.pomodoro {
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 4rem; }
+
+p {
+  text-align: center; }
+
+.flip-clock-wrapper {
+  max-width: 460px;
+  margin: 3em auto 2em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace; }
+
+.col-md-4 {
+  display: flex;
+  justify-content: center; }
+
+.col-md-2 {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  align-items: center; }
+
+.counter {
+  display: flex;
+  justify-content: center; }
+
+.clock {
+  margin-top: 30px; }
+
+.container {
+  width: 500px; }
+
+.middle {
+  display: inline-block; }
+
+#btns {
+  display: flex;
+  justify-content: center; }
+
+#stop {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.btn {
+  background-color: #503636;
+  color: #CCCCCC; }
+
+#sessInc,
+#sessDec,
+#breakInc,
+#breakDec {
+  font-weight: bold; }
+
+#statRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: fit-content; }
+  .button-group .btn {
+    width: 5rem; }
